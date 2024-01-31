@@ -1,0 +1,423 @@
+.body{
+    background-color:  rgb(172, 166, 166);;
+}
+
+
+.maincontainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    width: 100%;
+    padding: 13px;
+}
+.maincontainer .picture img{
+    margin: 10px !important;
+    /* align-content: center;
+    justify-content: center; */
+} 
+.maincontainer .navbar .left{
+    margin-right: 20px;
+}
+.left{
+    margin-right: 20px;
+}
+#navbtn button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid green;
+    border-radius: 11px;
+}
+#navbtn{
+    margin-left: 100px;
+    margin-right: 10px;
+    /* margin: 10px; */
+}
+.secoundpage{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(172, 166, 166);
+    flex-wrap: wrap-reverse;
+}
+    
+
+.secoundpage img{
+    height: 80%;
+    margin: 12px;
+}
+.secoundpage .two{
+    color: yellow;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    font-size: 550px;
+    margin-top: 10%;
+}
+
+.secoundpage .two h1{
+    color: green;
+    font-size: 55px;
+
+}
+.downbar{
+    display: flex;
+    height: 150px;
+    background-color: greenyellow;
+    margin-right: 20%;
+    margin-left: 20%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    border-radius: 21px;
+}
+.downbar h3{
+    color: brown;
+    margin-top: 21px;
+}
+.downbar .number input{
+    margin-top: 30px;
+    height: 32px;
+}
+.downbar .btncontainer{
+    margin-top: 34px;
+    justify-content: center;
+    display: flex;
+
+
+}
+.downbar .btncontainer button{
+    background-color: black;
+    color: #fff;
+    height: 32px;
+        width: 99px;
+        margin-right: 13px;
+}
+.downbar .btncontainer button:hover{   
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    transition: 0.3s;
+    height: 32px;
+     width: 99px;
+}
+.thirdpage{
+    margin-top: 22px;
+}
+.thirdpage .h1container h1{
+    display: flex;
+    justify-content: center;
+}
+.thirdpage .h1container h1 span{
+    color: greenyellow;
+    
+}
+.thirdpage .h1container p{
+    display: flex;
+    justify-content: center;
+}
+.elipsecontainer{
+    display: flex;
+    margin-top: 42px;
+    justify-content: space-around;
+}
+.portionone .portiononeitemone{
+    height: auto;
+    width: 300px;
+}
+.portionone .portiononeitemtwo{
+    height: auto;
+    width: 300px;
+}
+.pthreeone{
+    height: auto;
+    width: 300px;
+}
+.pthreetwo{
+    height: auto;
+    width: 300px;
+}
+.portiontwo p{
+    font-size: 44px;
+   display: flex;
+   justify-content: center;
+}
+.benefits h1 span {
+    color: #14e622;
+    letter-spacing: 12px;
+}
+.benefits h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+   
+}
+.benefitscontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.benefitscontainerone h2{
+    font-size: 35px;
+    margin-top: 48px;
+}
+.benefitscontainerone p{
+    color: rgb(73, 67, 73);
+    font-size: 23px;
+}
+.benefitsimage{
+    margin-right: 55px;
+   
+}
+.benefitscontainerone{
+    margin-left: 61px;
+}
+.earningcontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.earningcontent h2{
+    font-size: 55px;
+    margin-top: 68px;
+}
+.earningcontent p{
+    color: rgb(73, 67, 73);
+    font-size: 23px;
+}
+.servicecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.servicetext p{
+    color: rgb(78, 73, 73);
+}
+.servicetext h1{
+    color: rgb(0, 0, 0);
+    margin-top: 14px;
+}
+
+.serviceimage{
+    margin-right: 55px;
+
+}
+.servicetext{
+    margin-top: 66px;
+}
+.footer{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .one{
+    margin-top: 80px;
+}
+.footer .button button {
+    margin-top: 80px;
+}
+.footer button{
+    background-color: black;
+    color: white;
+    height: 35px;
+    margin-right: 22px;
+    width: 160px;
+    border-radius: 9px;
+
+}
+.footer button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 35px;
+    margin-right: 22px;
+    width: 160px;
+    transition: 0.4s;
+    border-radius: 9px;
+ 
+ 
+}
+
+
+
+
+@media only screen and (max-width:750px){
+    .maincontainer{
+        background-color: yellow;
+        width: 100%;
+    }
+    .maincontainer .navbar{
+        display: none;
+    }
+    .secoundpage{
+        margin-top: 22px;
+    }
+    .secoundpage img{
+        margin: 0%;
+        width: 100%;
+        height: 100%;
+        border: 2px solid red;
+        justify-content: center;
+        align-content: center;
+        
+        
+        
+        
+  
+    }
+    .secoundpage .two{
+        margin-top: 0%;
+        text-align: center;
+    }
+    .downbar{
+        height:249px ;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        border-radius: 22px;
+
+    }
+    .btncontainer{
+       width: 100%;
+    }
+    .btncontainer button{
+        margin: 0%;
+        padding: 0%;
+        height: 32px;
+        width: 99px;
+
+    }
+    .h1container p{
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .elipsecontainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .elipsecontainer .portionone{
+        font-size: 24px;
+    }
+    .elipsecontainer .portiontwo p{
+        font-size: 24px;
+        color: yellow;
+        display: flex;
+        justify-content: center;
+    }
+    .portionone .portiononeitemone{
+        color: red;
+        width: 100%;
+        text-align:center ;
+        border: 2px solid white;
+        box-shadow: 10px 12px 13px grey;
+
+    }
+    .portionone .portiononeitemtwo{
+        color: red;
+        margin-top: 8%;
+        width: 100%;
+        text-align:center ;
+        box-shadow: 10px 12px 13px grey;
+        border: 2px solid white;
+
+    }
+     .portionone .portionitemtwo img{
+        align-items: center;
+        justify-content: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: none;
+        visibility: hidden;
+        margin-top: 8%;
+    }
+    .elipsecontainer .portiontwo img{
+        width: auto;
+        height: auto;
+        margin-left: 11px;
+        margin-right: 11px;
+        text-align: center;
+        margin-top: 8%;
+    }
+    .portionthree .pthreeone{
+        color: red;
+        width: 100%;
+        text-align:center ;
+        margin-top: 8%;
+        font-size: 24px;
+        box-shadow: 10px 12px 13px grey;
+        border: 2px solid white;
+
+    }
+    .portionthree .pthreetwo{
+        color: red;
+        width: 100%;
+        text-align:center ;
+        margin-top: 8%;
+        font-size: 24px;
+        box-shadow: 10px 12px 13px grey;
+        border: 2px solid white;
+    }
+    .benefitsimage{
+        margin-top: 23px;
+       
+    }
+    .benefitscontainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .benefits h1{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .benefitscontainerone h2{
+        margin-top: 12px;
+        text-align: center;
+    }
+    .earningcontainer{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .earningcontainer .earningimage{
+        text-align: center;
+    }
+   .earningcontainer .earningcontent{
+    text-align: center;
+   }
+   .footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.footer .one {
+    text-align: center;
+    display: none;
+}
+
+.footer .two {
+    text-align: center;
+    margin: 0;
+}
+
+.footer .three {
+    text-align: center;
+    margin: 0;
+    
+}
+
+.footer .button  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+
+   
+}
+}
