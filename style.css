@@ -1,31 +1,55 @@
 .body{
-    background-color:  rgb(172, 166, 166);;
+    /* background-color:  rgb(172, 166, 166); */
+    overflow-x: hidden;
+    margin: 0%;
+   
 }
 
 
 .maincontainer{
     display: flex;
     justify-content: space-between;
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     padding: 13px;
+    margin-top: 2px;
+  
 }
 .maincontainer .picture img{
-    margin: 10px !important;
-    /* align-content: center;
-    justify-content: center; */
+    align-content: center;
+    justify-content: center;
+    
 } 
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 .maincontainer .navbar .left{
     margin-right: 20px;
+    
+    
 }
 .left{
     margin-right: 20px;
+    align-content: center;
+    justify-content: center;
 }
 #navbtn button{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    border: 2px solid green;
+    border: 2px solid rgb(164, 168, 164);
     border-radius: 11px;
+    height: 30px;
+}
+#navbtn button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(97, 97, 97);
+    border-radius: 11px;
+    height: 30px;
+    transition: 0.5s;
 }
 #navbtn{
     margin-left: 100px;
@@ -35,7 +59,7 @@
 .secoundpage{
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(172, 166, 166);
+    background-color: rgb(223, 223, 223);
     flex-wrap: wrap-reverse;
 }
     
@@ -68,6 +92,7 @@
     flex-wrap: wrap;
     margin-top: 5px;
     border-radius: 21px;
+    
 }
 .downbar h3{
     color: brown;
@@ -98,8 +123,12 @@
     height: 32px;
      width: 99px;
 }
+.pageandellipse{
+    background-color: rgb(231, 231, 231);
+}
 .thirdpage{
     margin-top: 22px;
+   
 }
 .thirdpage .h1container h1{
     display: flex;
@@ -117,6 +146,7 @@
     display: flex;
     margin-top: 42px;
     justify-content: space-around;
+   
 }
 .portionone .portiononeitemone{
     height: auto;
@@ -211,9 +241,7 @@
 .footer .one{
     margin-top: 80px;
 }
-.footer .button button {
-    margin-top: 80px;
-}
+
 .footer button{
     background-color: black;
     color: white;
@@ -221,6 +249,7 @@
     margin-right: 22px;
     width: 160px;
     border-radius: 9px;
+
 
 }
 .footer button:hover{
@@ -234,6 +263,9 @@
  
  
 }
+.btncontainer{
+    margin-top: 66px;
+}
 
 
 
@@ -241,7 +273,7 @@
 @media only screen and (max-width:750px){
     .maincontainer{
         background-color: yellow;
-        width: 100%;
+        width: auto;
     }
     .maincontainer .navbar{
         display: none;
@@ -329,12 +361,14 @@
         margin-top: 8%;
     }
     .elipsecontainer .portiontwo img{
-        width: auto;
+        width: 100%;
         height: auto;
-        margin-left: 11px;
+        /* margin-left: 11px;
         margin-right: 11px;
+        */
+       
+        margin-top: 8%; 
         text-align: center;
-        margin-top: 8%;
     }
     .portionthree .pthreeone{
         color: red;
@@ -409,15 +443,14 @@
     
 }
 
-.footer .button  {
+.footer .btncontainer  {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.lastbtns{
+    justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row;
-    margin: 0%;
-    margin-bottom: 0%;
-    padding: 0%;
-
-   
+    align-items: center;
 }
 }
